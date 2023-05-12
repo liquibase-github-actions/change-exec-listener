@@ -6,7 +6,7 @@ null
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/change-exec-listener@v4.21.1
+- uses: liquibase-github-actions/change-exec-listener@v4.22.0
   with:
     # The JDBC database connection URL
     # string
@@ -80,7 +80,7 @@ The liquibase change exec listener action accepts all valid liquibase global opt
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/change-exec-listener@v4.21.1
+  - uses: liquibase-github-actions/change-exec-listener@v4.22.0
     with:
       url: ""
       headless: true
